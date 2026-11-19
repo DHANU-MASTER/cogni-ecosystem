@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/cogni-banner.png"
+  <img src="images/cogni-banner.png"
        alt="Cogni Ecosystem — Think, Learn, Build, Understand"
        width="100%">
 </p>
