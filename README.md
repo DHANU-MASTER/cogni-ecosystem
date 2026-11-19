@@ -3,7 +3,7 @@
 ### Think. Learn. Build. Understand.
 
 <p align="center">
-  <img src="assets/cogni-banner.svg" alt="Cogni Ecosystem — AI Learning Future" width="100%">
+  <img src="assets/cogni-banner.png" alt="Cogni Ecosystem — AI Learning Future" width="100%">
 </p>
 
 <p align="center">
