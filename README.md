@@ -3,18 +3,30 @@
 ### Think. Learn. Build. Understand.
 
 <p align="center">
-  <img src="assets/cogni-banner.png" alt="Cogni Ecosystem — AI Learning Future" width="100%">
+  <img src="assets/cogni-banner.png"
+       alt="Cogni Ecosystem Banner"
+       width="100%">
 </p>
+
+<h1 align="center">🧠 Cogni Ecosystem</h1>
+
+<h3 align="center">
+  Think. Learn. Build. Understand.
+</h3>
 
 <p align="center">
   <strong>An Open-Source, Human-in-the-Loop AI Learning Ecosystem for Engineering Students</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Pre--Development-orange" alt="Status: Pre-Development">
-  <img src="https://img.shields.io/badge/Project-Open%20Source-brightgreen" alt="Open Source Project">
-  <img src="https://img.shields.io/badge/Focus-Responsible%20AI-blue" alt="Responsible AI">
-  <img src="https://img.shields.io/badge/Domain-Education-purple" alt="Education">
+  <img src="https://img.shields.io/badge/Status-Pre--Development-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Project-Open%20Source-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Focus-Responsible%20AI-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Domain-Education-purple?style=for-the-badge">
+</p>
+
+<p align="center">
+  <em>AI should make students smarter, not make them dependent on AI.</em>
 </p>
 
 > **AI should make students smarter, not make them dependent on AI.**
