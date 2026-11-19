@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030d25"/>
+      <stop offset=".48" stop-color="#071936"/>
+      <stop offset="1" stop-color="#120b35"/>
+    </linearGradient>
+    <linearGradient id="cyanPurple" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#59f4ff"/>
+      <stop offset=".52" stop-color="#2aa9ff"/>
+      <stop offset="1" stop-color="#b35cff"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ff9b35"/>
+      <stop offset=".55" stop-color="#a942ff"/>
+      <stop offset="1" stop-color="#5a65ff"/>
+    </linearGradient>
+    <linearGradient id="cardCyan" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#071f42"/>
+      <stop offset="1" stop-color="#07142e"/>
+    </linearGradient>
+    <linearGradient id="cardPurple" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1b1645"/>
+      <stop offset="1" stop-color="#0d1434"/>
+    </linearGradient>
+    <filter id="glowCyan" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowPurple" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <pattern id="circuit" width="90" height="90" patternUnits="userSpaceOnUse">
+      <path d="M10 10h25v18h25v25h20M80 76H57V55H35V35H10" fill="none" stroke="#1b78bc" stroke-opacity=".15" stroke-width="2"/>
+      <circle cx="10" cy="10" r="3" fill="#59f4ff" fill-opacity=".26"/>
+      <circle cx="80" cy="76" r="3" fill="#b35cff" fill-opacity=".24"/>
+    </pattern>
+    <style>
+      .sans{font-family:DejaVu Sans,Arial,sans-serif}
+      .bold{font-family:DejaVu Sans,Arial,sans-serif;font-weight:700}
+      .hand{font-family:cursive;font-style:italic}
+      .white{fill:#f4fbff}
+      .muted{fill:#a8c8e8}
+      .cyan{fill:#65f4ff}
+      .purpleText{fill:#d29bff}
+      .small{font-size:20px;letter-spacing:1px}
+    </style>
+  </defs>
+
+  <rect width="1536" height="1024" fill="url(#bg)"/>
+  <ellipse cx="760" cy="410" rx="520" ry="330" fill="#2575ff" opacity=".12" filter="url(#soft)"/>
+  <ellipse cx="1190" cy="500" rx="350" ry="280" fill="#a840ff" opacity=".11" filter="url(#soft)"/>
+  <rect x="0" y="0" width="1536" height="1024" fill="url(#circuit)"/>
+
+  <g opacity=".34" fill="none" stroke="url(#cyanPurple)" stroke-width="2">
+    <path d="M0 180 C170 80 220 310 420 180 S710 210 860 95"/>
+    <path d="M0 215 C160 115 245 335 430 215 S700 245 850 130"/>
+    <path d="M1536 190 C1350 90 1320 285 1120 175 S900 220 820 130"/>
+    <path d="M1536 225 C1365 130 1300 320 1110 210 S920 255 840 160"/>
+  </g>
+
+  <!-- Header -->
+  <g transform="translate(630 32)">
+    <path d="M107 13c-22-21-66-13-72 18-21-9-42 6-37 30-22 8-20 41 4 48 7 31 45 34 61 12 22 17 58 2 58-26 28-10 26-51-1-60 2-9-3-17-13-22z" fill="#267fff" stroke="#7cf9ff" stroke-width="4" filter="url(#glowCyan)"/>
+    <path d="M55 25c-12 13-9 24 2 32M86 20c-11 13-11 28 1 36M34 58c13-5 24-2 31 8M75 57c13-7 25-4 32 7" fill="none" stroke="#d2a4ff" stroke-width="4" stroke-linecap="round"/>
+    <path d="M24 7 76-5l46 18-52 15z" fill="#3155df" stroke="#8cecff" stroke-width="3"/>
+    <path d="M76 28v21M76 49l31-8" fill="none" stroke="#ffd04d" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="107" cy="42" r="5" fill="#ffd04d"/>
+  </g>
+  <text x="768" y="107" text-anchor="middle" class="bold" font-size="66" fill="url(#cyanPurple)">Cogni Ecosystem</text>
+  <text x="768" y="145" text-anchor="middle" class="bold" font-size="19" letter-spacing="5" class="white">THINK • LEARN • BUILD • UNDERSTAND</text>
+  <text x="768" y="178" text-anchor="middle" class="sans" font-size="18" fill="#bcd8f7">An Open-Source, Human-in-the-Loop AI Learning Platform for Engineering Students</text>
+
+  <!-- Student -->
+  <g transform="translate(45 300)">
+    <text x="60" y="-18" class="hand" font-size="31" fill="#d0e8ff" transform="rotate(-8 60 -18)">Learn Smarter...</text>
+    <path d="M104 146c-5-70 26-128 100-133 72-5 106 48 98 123l-8 87H112z" fill="#142d58" stroke="#4779b5" stroke-width="4"/>
+    <path d="M146 70c-13-32 19-71 65-72 47-2 79 31 73 72l-7 59c-8 38-42 61-75 56-36-5-58-32-61-65z" fill="#f3bd9e" stroke="#613b48" stroke-width="4"/>
+    <path d="M145 58c0-49 43-82 89-66 37 13 54 42 46 72-18-15-34-22-52-28-20 25-50 37-83 35z" fill="#17213f"/>
+    <path d="M157 92h34M220 92h34" stroke="#101b38" stroke-width="10" stroke-linecap="round"/>
+    <rect x="153" y="78" width="43" height="28" rx="8" fill="none" stroke="#151b33" stroke-width="5"/>
+    <rect x="215" y="78" width="43" height="28" rx="8" fill="none" stroke="#151b33" stroke-width="5"/>
+    <path d="M196 91h19M200 128q18 14 35 0" fill="none" stroke="#7a4250" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122 229c20-46 57-67 93-67 44 0 79 23 98 67v117H122z" fill="#132745" stroke="#4779b5" stroke-width="4"/>
+    <path d="M206 162l-29 89 39 21 41-21-29-89" fill="#192f52"/>
+    <path d="M175 230c-20 17-28 45-18 76l60-40-18-48z" fill="#f3bd9e" stroke="#8b5660" stroke-width="4"/>
+    <path d="M181 275c-9-6-20-4-25 5-6 10 0 21 11 22l44 3 6-18z" fill="#f3bd9e" stroke="#8b5660" stroke-width="4"/>
+    <path d="M52 340h270l-17 42H70z" fill="#0b1830" stroke="#47dff0" stroke-width="4" filter="url(#glowCyan)"/>
+    <path d="M68 328h235l-16-135H85z" fill="#08142a" stroke="#4aa5d2" stroke-width="4"/>
+    <path d="M95 218h183v93H95z" fill="#102c58"/>
+    <g transform="translate(167 248)">
+      <path d="M23 3c-15-13-39-5-39 14-15 2-18 23-5 30 5 18 28 18 38 6 14 10 32-1 30-17 16-9 8-32-8-32-2-2-8-3-16-1z" fill="#277eff" stroke="#68f5ff" stroke-width="2"/>
+      <path d="M0 5 20 0l20 7-20 7z" fill="#544fe2" stroke="#a8eaff" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- CogniGraph card -->
+  <g transform="translate(485 282)">
+    <rect width="390" height="320" rx="28" fill="url(#cardCyan)" stroke="#59f4ff" stroke-width="4" filter="url(#glowCyan)"/>
+    <circle cx="50" cy="55" r="26" fill="#258cff" stroke="#72f7ff" stroke-width="3"/>
+    <path d="M40 43c-8 8-5 16 2 20M58 41c-7 9-7 17 1 23M37 60c8-3 15 0 19 6M57 58c8-5 15-2 20 5" fill="none" stroke="#d4b0ff" stroke-width="3" stroke-linecap="round"/>
+    <text x="89" y="65" class="bold" font-size="32" fill="#ecfbff">CogniGraph</text>
+    <text x="28" y="105" class="sans" font-size="18" fill="#9fd9f5">Your Intelligent Academic Companion</text>
+    <g class="sans" font-size="18" fill="#d9f7ff">
+      <circle cx="34" cy="148" r="13" fill="#55efff"/><path d="m27 148 5 5 9-11" fill="none" stroke="#09234a" stroke-width="3"/><text x="61" y="155">Syllabus-Grounded RAG</text>
+      <circle cx="34" cy="190" r="13" fill="#55efff"/><path d="m27 190 5 5 9-11" fill="none" stroke="#09234a" stroke-width="3"/><text x="61" y="197">Socratic Learning</text>
+      <circle cx="34" cy="232" r="13" fill="#55efff"/><path d="m27 232 5 5 9-11" fill="none" stroke="#09234a" stroke-width="3"/><text x="61" y="239">Notifications &amp; Updates</text>
+      <circle cx="34" cy="274" r="13" fill="#55efff"/><path d="m27 274 5 5 9-11" fill="none" stroke="#09234a" stroke-width="3"/><text x="61" y="281">Task Scheduling</text>
+      <circle cx="34" cy="316" r="13" fill="#55efff"/><path d="m27 316 5 5 9-11" fill="none" stroke="#09234a" stroke-width="3"/><text x="61" y="323">Focus Insights</text>
+    </g>
+  </g>
+
+  <!-- CogniFire card -->
+  <g transform="translate(900 282)">
+    <rect width="390" height="320" rx="28" fill="url(#cardPurple)" stroke="#b65cff" stroke-width="4" filter="url(#glowPurple)"/>
+    <path d="M49 29c-27 21-27 48-5 59 19 10 48-5 36-31-5-10-12-17-13-30-8 8-13 14-13 24-8-5-8-13-5-22z" fill="#ff9d38" stroke="#ffd37a" stroke-width="3"/>
+    <text x="89" y="65" class="bold" font-size="31" fill="#fff3ff">CogniFire 2.0</text>
+    <text x="28" y="105" class="sans" font-size="16.5" fill="#d3b9f4">Transparent Multi-Agent Coding Sandbox</text>
+    <g class="sans" font-size="19" fill="#f0e5ff">
+      <circle cx="34" cy="158" r="13" fill="#be68ff"/><path d="m27 158 5 5 9-11" fill="none" stroke="#21124f" stroke-width="3"/><text x="61" y="165">Planner → Plans</text>
+      <circle cx="34" cy="205" r="13" fill="#be68ff"/><path d="m27 205 5 5 9-11" fill="none" stroke="#21124f" stroke-width="3"/><text x="61" y="212">Coder → Writes</text>
+      <circle cx="34" cy="252" r="13" fill="#be68ff"/><path d="m27 252 5 5 9-11" fill="none" stroke="#21124f" stroke-width="3"/><text x="61" y="259">Tester → Validates</text>
+      <circle cx="34" cy="299" r="13" fill="#be68ff"/><path d="m27 299 5 5 9-11" fill="none" stroke="#21124f" stroke-width="3"/><text x="61" y="306">Explainer → Explains</text>
+    </g>
+  </g>
+
+  <!-- Robot -->
+  <g transform="translate(1295 310)">
+    <text x="40" y="-22" class="hand" font-size="29" fill="#d0e8ff" transform="rotate(7 40 -22)">Build Better with AI...</text>
+    <path d="M80 107h144v170c0 31-23 55-55 55h-34c-32 0-55-24-55-55z" fill="#eaf7ff" stroke="#73c9ec" stroke-width="4"/>
+    <rect x="95" y="116" width="114" height="82" rx="25" fill="#07142c" stroke="#54e9ff" stroke-width="4"/>
+    <path d="M124 151q11-20 22 0M166 151q11-20 22 0M130 173q26 20 52 0" fill="none" stroke="#63f5ff" stroke-width="7" stroke-linecap="round"/>
+    <path d="M94 97l59-17 60 17-60 21z" fill="#315ce5" stroke="#8cecff" stroke-width="4"/>
+    <path d="M153 118v26M153 144l38-10" fill="none" stroke="#ffd34e" stroke-width="4"/>
+    <circle cx="191" cy="134" r="6" fill="#ffd34e"/>
+    <path d="M134 236c0-25 22-38 39-38s39 13 39 38c-26 12-52 12-78 0z" fill="#071a3a" stroke="#56efff" stroke-width="3"/>
+    <path d="M153 209c-11 10-10 22 0 28M171 207c-7 12-6 22 2 31M188 210c-6 10-5 18 2 25" fill="none" stroke="#c185ff" stroke-width="3"/>
+    <path d="M90 219 49 240l19 35 50-26M218 219l42 18-3 39-49-11" fill="#eaf7ff" stroke="#73c9ec" stroke-width="4"/>
+    <path d="M258 237c19-20 41-2 31 12 18-2 22 18 8 26-14 8-30-1-39-13z" fill="#eaf7ff" stroke="#73c9ec" stroke-width="4"/>
+    <path d="M105 318h-32l-25 55h65zM193 318h32l25 55h-65z" fill="#dbefff" stroke="#73c9ec" stroke-width="4"/>
+  </g>
+
+  <!-- Feature strip -->
+  <g transform="translate(92 690)">
+    <rect width="1352" height="124" rx="29" fill="#071630" stroke="#315b91" stroke-width="3"/>
+    <path d="M338 20v84M676 20v84M1014 20v84" stroke="#315b91" stroke-width="2"/>
+    <g class="sans" text-anchor="middle" font-size="19" fill="#e9f8ff">
+      <g transform="translate(169 34)" fill="#66f4ff">
+        <path d="M-25 0q25-18 50 0v42q-25-18-50 0zM0 0v42" fill="none" stroke="#66f4ff" stroke-width="4"/>
+        <text y="73" fill="#e9f8ff">Active Learning</text>
+      </g>
+      <g transform="translate(507 34)" fill="none" stroke="#bb75ff" stroke-width="4">
+        <path d="M0-20 29-8v22c0 20-29 32-29 32S-29 34-29 14V-8z"/><path d="m-13 11 9 9 18-21"/>
+        <text y="73" fill="#e9f8ff" stroke="none">Human Control</text>
+      </g>
+      <g transform="translate(845 34)" fill="none" stroke="#66f4ff" stroke-width="4">
+        <rect x="-22" y="0" width="44" height="35" rx="5"/><path d="M-13 0v-12c0-18 26-18 26 0v12"/>
+        <text y="73" fill="#e9f8ff" stroke="none">Privacy First</text>
+      </g>
+      <g transform="translate(1183 34)" fill="none" stroke="#bb75ff" stroke-width="4">
+        <path d="M-8-24h22l10 10v22l-22 22h-22l-10-10v-22zM-22-2l18 18M6-18l14 14"/>
+        <text y="73" fill="#e9f8ff" stroke="none">Open Source</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- CTA -->
+  <g transform="translate(400 870)">
+    <rect width="736" height="78" rx="39" fill="#091a36" stroke="url(#cyanPurple)" stroke-width="4" filter="url(#glowCyan)"/>
+    <text x="368" y="49" text-anchor="middle" class="sans" font-size="26" fill="#f7fcff">
+      <tspan font-size="29">🚀 </tspan><tspan class="bold">Coming Soon...</tspan><tspan font-style="italic"> !</tspan>
+    </text>
+  </g>
+</svg>
