@@ -1,18 +1,10 @@
-# 🧠 Cogni Ecosystem
-
-### Think. Learn. Build. Understand.
-
 <p align="center">
   <img src="assets/cogni-banner.png"
-       alt="Cogni Ecosystem Banner"
+       alt="Cogni Ecosystem — Think, Learn, Build, Understand"
        width="100%">
 </p>
 
 <h1 align="center">🧠 Cogni Ecosystem</h1>
-
-<h3 align="center">
-  Think. Learn. Build. Understand.
-</h3>
 
 <p align="center">
   <strong>An Open-Source, Human-in-the-Loop AI Learning Ecosystem for Engineering Students</strong>
@@ -26,10 +18,8 @@
 </p>
 
 <p align="center">
-  <em>AI should make students smarter, not make them dependent on AI.</em>
+  <em>Think. Learn. Build. Understand. — AI should make students smarter, not dependent.</em>
 </p>
-
-> **AI should make students smarter, not make them dependent on AI.**
 
 ---
 
